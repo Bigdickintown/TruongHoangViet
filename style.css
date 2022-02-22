@@ -318,9 +318,12 @@ footer {
     transform: scale(1);
     transition: 0.3s ease-in-out;
     display: block;
+    z-index: -1;
+    position: relative;
 }
 .content__aboutus--image:hover {
     transform: scale(1.01);
+    z-index: 0;
 }
 .first__heading--aboutus {
     color: var(--text-color);
